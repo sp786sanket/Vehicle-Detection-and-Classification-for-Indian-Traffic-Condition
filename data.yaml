@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 7
+names: ['3W', 'Bus', 'Cars', 'LCV', 'M2W', 'MAV', 'Truck']
+
+roboflow:
+  workspace: sardar-vallabhbhai-national-institute-if-technology
+  project: vehicle-detection-wagr7
+  version: 3
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/sardar-vallabhbhai-national-institute-if-technology/vehicle-detection-wagr7/dataset/3
